@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "types": ["node", "@playwright/test"]
+  },
+  "include": [
+    "CareLinkAir-ui/pages",
+    "CareLinkAir-ui",
+    "CareLinkAir-ui/utils",
+    "CareLinkAir-ui/fixtures",
+    "CareLinkAir-ui/api",
+    "setup/token.ts"
+  ]
+}
