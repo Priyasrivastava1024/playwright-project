@@ -1,0 +1,12 @@
+export class TestData {
+
+  static generatePet() {
+    const id = Date.now();
+
+    return {
+      id,
+      name: `Pet-${id}`,
+      status: 'available'
+    };
+  }
+}
